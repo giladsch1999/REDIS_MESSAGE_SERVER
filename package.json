@@ -1,0 +1,16 @@
+{
+    "name": "redis-message-server",
+    "version": "1.0.0",
+    "description": "A server application to manage messages with Redis.",
+    "main": "dist/server.js",
+    "scripts": {
+        "start": "node dist/server.js",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "ioredis": "^5.4.1",
+        "typescript": "^5.7.2",
+        "uuid": "^11.0.3"
+    }
+}

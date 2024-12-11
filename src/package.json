@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "tsc && node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.1",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
